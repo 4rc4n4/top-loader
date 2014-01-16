@@ -20,16 +20,18 @@ Link `top-loader.js` from your html file
 ### Generate progressbar
 
 ```js
-var toploader = new TopLoader( options ) 
+var toploader = new TopLoader( options );
 ```
 
-**Arguments**
+## API
+
+### Constructor arguments
 
 - `options` `<Obj>`: `options` and its childs are optional
 - `options.bg` `<String>`: background css property, '#acf' by default
 - `option.glow` `<String>`: glow color (hexadecimal)
 
-**Methods**
+### Methods
 
 #### TopLoader#init()
 
@@ -38,7 +40,7 @@ Initialize style and progress
 
 #### TopLoader#finish([ok])
 
-Close the progress bar and 
+Close the progress bar and launch ok symbol if passed as argument
 
 **arguments**
 
@@ -53,7 +55,7 @@ Size the bar
 - `percentage` `<Number>` : percentage progress for bar
 
 
-#### Example
+## Example
 
 Create bar
 

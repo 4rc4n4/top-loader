@@ -82,4 +82,4 @@ TopLoader.prototype.sendOk = function (bool) {
 	setTimeout( function () {
 		ok.parentNode.removeChild( ok );
 	}, 2000);
-}
+};
