@@ -1,0 +1,20 @@
+{
+  "name": "top-laoder",
+  "repo": "jacoborus/top-loader",
+  "description": "Dependency free load CSS3 progress bars",
+  "version": "0.0.1",
+  "keywords":  [
+    "loader",
+    "progress",
+    "progressbar",
+    "CSS3",
+    "html"
+  ],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "main": "top-loader.js",
+  "scripts": [
+    "top-loader.js"
+  ]
+}
