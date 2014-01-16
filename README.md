@@ -23,22 +23,20 @@ Link `top-loader.js` from your html file
 var toploader = new TopLoader( options );
 ```
 
+**options**
+
+- `bg` `<String>`: background css property, '#acf' by default
+- `glow` `<String>`: glow color (hexadecimal)
+
 ## API
 
-### Constructor arguments
 
-- `options` `<Obj>`: `options` and its childs are optional
-- `options.bg` `<String>`: background css property, '#acf' by default
-- `option.glow` `<String>`: glow color (hexadecimal)
-
-### Methods
-
-#### TopLoader#init()
+### TopLoader#init()
 
 Initialize style and progress
 
 
-#### TopLoader#finish([ok])
+### TopLoader#finish([ok])
 
 Close the progress bar and launch ok symbol if passed as argument
 
@@ -46,7 +44,7 @@ Close the progress bar and launch ok symbol if passed as argument
 
 - `ok` `<Boolean>` : optional, if true show 'ok' symbol, if false shows 'error' symbol
 
-#### TopLoader#go(percentage)
+### TopLoader#go(percentage)
 
 Size the bar 
 
